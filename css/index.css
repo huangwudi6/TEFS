@@ -1,3 +1,37 @@
 .header{
     
 }
+.addBtn{
+    margin: 6rem auto 0;
+    width: 20rem;
+    height: 20rem;
+    background-color: #efefef;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.addBtn p:first-child{
+    color: #000;
+    font-size: 15rem;
+    line-height: 15rem;
+}
+.addBtn p:last-child{
+    color: afafaf;
+}
+#uploadBtn{
+    width: 15rem;
+    height: 3.5rem;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+    background-color: #f6f6f6;
+    border-radius: .5rem;
+    margin-top: 1.5rem;
+}
