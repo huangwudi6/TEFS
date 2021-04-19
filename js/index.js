@@ -1,29 +1,20 @@
 $(document).ready(function(){
 
+    
+
 })
 
-function chooseVideos(){
-    // alert("hi")
-    document.getElementById("videos").click()
-}
-
-function uploadVideos(){
-    // console.log(document.getElementById("videos").files[0])
-    var formData=new FormData()
-    formData.append('videos',document.getElementById("videos").files[0])
-    console.log(formData)
-    console.log(formData.get('videos'))
+function signin(){
+    // alert("lajskd")
+    var usermail=document.getElementById("floatingInput")
+    var password=document.getElementById("floatingPassword")
+    
     $.ajax({
-        url: "",
-        type: "POST",
-        data: formData,
-        processData: false,
-        contentType: false,
-        success: function (data) {
-            console.log(data);
-        },
-        error: function (e) {
-            console.log(e);
+        method:"GET",
+        url:"127.0.0.1/userctrl?action=login&username="+ usermail +"&password="+ password,
+        complete(){
+            console.log("跳转")
+            window.location.href="pages/videoUpload.html"
         }
     })
 }

@@ -1,0 +1,98 @@
+.main{
+    padding-bottom: 10rem;
+}
+.myVideo{
+    display: block;
+    width: 64rem;
+    height: 36rem;
+    margin: 5rem auto;
+}
+.progress{
+    background-color: #E9ECEF;
+    overflow: visible;
+    position: relative;
+    display: flex;
+}
+.l-circle{
+    display: block;
+    
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: -.25rem;
+    margin-right: -.75rem;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+.r-circle{
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: -.25rem;
+    margin-left: -.75rem;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+}
+.l-progress{
+    /* background-color: red!important; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* width: 50%; */
+    /* float: left; */
+    position: relative;
+}
+.r-progress{
+    /* background-color: #E9ECEF; */
+    /* position: absolute;
+    right: 0; */
+    /* width: 20%; */
+    /* float: right; */
+    position: relative;
+    /* margin-right: 0; */
+}
+.m-progress{
+    background-color: #0D6EFD;
+    flex: 1;
+}
+.controlBtn{
+    width: 100%;
+    /* height: 5rem; */
+    margin: 3rem 0;
+    display: flex;
+    justify-content: left;
+}
+.tabbar{
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+}
+.tab{
+    text-align: center;
+    flex: 1;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 50px;
+}
+.divcontainer{
+    padding: 50px;
+    min-height: 400px;
+}
+.line1{
+    display: flex;
+    align-items: center;
+}
+.line2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
